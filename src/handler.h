@@ -14,17 +14,10 @@
 ** You should have received a copy of the GNU General Public License
 ** along with cbits.  If not, see <http://www.gnu.org/licenses/>.
 */
-#ifndef __VERSION_H__
-#define __VERSION_H__
+#ifndef __HANDLER_H__
+#define __HANDLER_H__
 
-namespace cbits
-{
-    const char *pname    = "cbits";
-    const char *pversion = "0.1"; // major.minor
-    const char *pstage   = "a"; // [a]lpha / [b]eta
-    const char *pauthor  = "Kevin Morris"; // author's name
-    const char *pemail   = "kevr@sonic.net"; // author's email
-};
+// ... definitions go here
 
-#endif /* __VERSION_H__ */
+#endif /* __HANDLER_H__ */
 

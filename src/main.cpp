@@ -20,8 +20,15 @@
 
 #include <iostream>
 
+using namespace std;
+
+string full_version = string(cbits::pname) +" "+ string(cbits::pversion)
+                      + string(cbits::pstage);
+
 int main(int argc, char *argv[])
 {
+    cout << full_version << '\n';
+
     return 0;
 }
 
